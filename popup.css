@@ -1,0 +1,178 @@
+#statusMessage {
+  font-size: 16px;
+  width: 320px;
+  padding: 16px 24px;
+  margin-top: 20px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 26px;
+  color: #fff;
+}
+.help {
+  cursor: pointer;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+body {
+  border: none;
+  border-radius: 120px;
+  background-color: aliceblue;
+}
+
+#statusMessage.success {
+  background-color: #0e76a8;
+}
+
+#buyCredits {
+  margin: 10px;
+}
+
+#statusMessage.error {
+  background-color: #f44336;
+}
+.main {
+  display: flex;
+  background-color: aliceblue;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+.icon-popup {
+  height: 45px;
+  width: 45px;
+}
+
+.g-signin2 {
+  display: flex;
+  border: none;
+  padding: 8px 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  border-radius: 50px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.sign-in {
+  border-radius: 300px;
+}
+
+body {
+  font-family: "arial";
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+h1 {
+  font-size: 20px;
+  color: #0e76a8;
+}
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  background-color: aliceblue;
+  margin-bottom: 16px;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0a66c2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.guide {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 12px;
+  background-color: aliceblue;
+  color: #000000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.toggle-link {
+  cursor: pointer;
+  text-align: center;
+  margin: 15px;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#userEmail,
+#userCredits,
+#user-email,
+#user-organization,
+#currentPlan {
+  padding: 8px 16px;
+  background-color: white;
+  font-size: 16px;
+  border-radius: 60px;
+}
+
+#logoutButton {
+  background-color: #0a66c2;
+  color: white;
+  border-radius: 50px;
+  padding: 8px 18px;
+}
+
+.join_waitlist_heading,
+.login_heading {
+  text-align: center;
+}
+
+.footer {
+  align-items: center;
+  margin-top: 4px;
+  display: flex;
+  padding: 12px;
+  margin-top: 12px;
+  background-color: white;
+  border-radius: 12px;
+  justify-content: space-between;
+}
+
+.share_button {
+  font-size: 12px;
+  color: #ffffff;
+  background-color: aliceblue;
+  background-color: none;
+}
+
+.shareLInk {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}

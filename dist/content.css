@@ -1,0 +1,304 @@
+#generateButton {
+  background-color: #0077b5;
+  color: #ffffff;
+  padding: 8px 16px;
+  font-size: 12px;
+  border: none;
+  margin: 6px 4px 6px 4px;
+  border-radius: 200px;
+}
+
+#commentOptions {
+  padding: 4px 16px;
+  margin: 6px 4px;
+  border-radius: 20px;
+  border: 0.3px solid rgb(184, 184, 184);
+}
+
+#word-count-input {
+  color: black;
+  background-color: #ffffff;
+  padding: 6px 10px;
+  margin: 6px 4px;
+  border-radius: 20px;
+  border: 0.3px solid rgb(184, 184, 184);
+}
+
+#custom-tone-input {
+  color: black;
+  background-color: #ffffff;
+  padding: 6px 10px;
+  margin: 6px 4px;
+  border-radius: 20px;
+  border: 0.3px solid rgb(184, 184, 184);
+}
+
+#AIoptions {
+  padding: 4px 12px;
+  width: 120px !important;
+  margin: 6px 4px 6px 0px;
+  border-radius: 20px;
+  border: 0.3px solid rgb(184, 184, 184);
+}
+
+#post-containerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#postTypeInput {
+  padding: 8px 8px 8px 16px;
+  margin-bottom: 8px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  width: 700px;
+}
+
+#postToneDropdown {
+  background-color: #d3efff;
+  padding: 4px 16px;
+  margin: 4px 0px 8px 0px;
+  color: black;
+  width: 150px;
+  border-radius: 20px;
+}
+
+#generatePostButton {
+  background-color: #ffffff;
+  padding: 6px 16px 8px 16px;
+  margin: 4px 0px 8px 0px;
+  font-weight: 500;
+  color: #0077b5;
+  border-radius: 200px;
+  border: 1.5px solid #0077b5;
+  transition: background-color 0.3s ease;
+}
+
+#generatePostButton:hover {
+  background-color: #0077b5;
+  color: #ffffff;
+  border: 1.5px solid #0077b5;
+}
+
+#AIpostoptions {
+  border-radius: 20px;
+  margin: 4px 0px 8px 0px;
+  width: 100px;
+}
+
+#dropdowndiv {
+  display: flex;
+  gap: 10px;
+}
+
+#processing-message {
+  color: #000;
+  animation: blink-animation 1.5s infinite;
+}
+
+@keyframes blink-animation {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+#regenerate-button {
+  margin: 6px 4px 6px 0px;
+  color: white;
+  text-align: center;
+  padding: 4px 12px 6px 12px;
+  border-radius: 100px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: #0a66c2;
+}
+
+#stop-button {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 100px;
+}
+
+#stop-button:hover {
+  padding: 2px;
+  background-color: rgb(233, 233, 233);
+}
+
+#post-regenerate-button {
+  padding: 4px 12px 6px 12px;
+  border: 1px solid #0077b5;
+  color: #0077b5;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+}
+
+#remove-comment-options,
+#remove-leaderboard-btn,
+#remove-post-options {
+  height: 20px;
+  cursor: pointer;
+  width: 20px;
+  border-radius: 300px;
+  padding: 4px;
+  opacity: 0.6;
+  margin-right: 8px;
+  border: 0.2px solid black;
+}
+
+#remove-new-conversation-options {
+  height: 20px;
+  cursor: pointer;
+  width: 20px;
+  border-radius: 300px;
+  padding: 4px;
+  opacity: 0.6;
+  margin-left: 8px;
+  border: 0.2px solid black;
+}
+
+#remove-comment-options:hover {
+  opacity: 1;
+}
+
+#like-comment-icon {
+  height: 18px;
+  width: 18px;
+  opacity: 0.7;
+  margin-left: 10px;
+}
+
+#dislike-comment-icon {
+  height: 18px;
+  width: 18px;
+  transform: rotate(180deg);
+  opacity: 0.7;
+  margin-right: 5px;
+}
+
+#like-dislike-div {
+  display: flex;
+  gap: 12px;
+}
+
+#readd-postoptions {
+  padding: 4px 16px 6px 16px;
+  color: rgb(58, 58, 58);
+  border: 1px solid black;
+  background-color: white;
+  font-weight: 600;
+  border-radius: 200px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0px 4px 0px -4px;
+}
+
+textarea {
+  height: 300px;
+}
+
+#readd-postoptions:hover {
+  color: rgb(0, 0, 0);
+  border: 1.5px solid black;
+  background-color: rgb(230, 230, 230);
+}
+
+#generate-message-reply {
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 4px 12px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 90px;
+  border: 1px solid #000000d8;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#start-new-conversation {
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 4px 12px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 90px;
+  border: 1px solid #000000d8;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#templateRequirements {
+  border-radius: 80px;
+  background-color: #0077b5;
+  padding: 4px 16px;
+  color: black;
+  font-size: 12px;
+  width: 185px;
+}
+
+#generateTemplateButton,
+#regenerate-messsage-button {
+  color: #ffffff;
+  padding: 8px 16px;
+  font-size: 12px;
+  border: none;
+  border-radius: 200px;
+  background-color: #0077b5;
+}
+
+#regenerate-messsage-button {
+  margin-left: 6px;
+}
+
+#templateToneDropdown {
+  border-radius: 20px;
+  background-color: #0077b5;
+  width: 130px;
+  font-size: 12px;
+  padding: 4px 16px;
+  margin: 8px 8px 8px 0px;
+  color: black;
+  border-radius: 20px;
+}
+
+#new-conversation-options-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  padding: 0px 0px 10px 10px;
+  flex-wrap: wrap;
+}
+
+#message-options {
+  padding: 0px 0px 10px 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rotate-animation {
+  animation-name: rotateAnimation;
+  animation-duration: 0.5s; /* Adjust duration as needed */
+  animation-fill-mode: forwards; /* Keep the final state of the animation */
+}
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+}
