@@ -685,6 +685,19 @@ input:checked + .slider:before {
   border-radius: 6px;
 }
 
+#postTaggingToggle {
+  background-color: white;
+  width: 100%;
+  padding: 8px 10px 8px 10px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 0.3px solid lightgrey;
+  margin: 2px 0px 4px 0px !important;
+  border-radius: 6px;
+}
 #collection-div {
   background-color: #f4f2ee;
   margin-top: 0px;
