@@ -43,6 +43,7 @@
 
 #post-containerDiv {
   display: flex;
+  padding: 0px 24px 0px 24px;
   flex-direction: column;
   align-items: flex-start;
 }
