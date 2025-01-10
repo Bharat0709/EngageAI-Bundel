@@ -11,6 +11,21 @@
   margin: 2px 0px 6px 0px;
 }
 
+#lastSynced {
+  font-size: 11px;
+  color: #0077b5;
+  font-weight: 600;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-align: center;
+  width: 100%;
+  border-radius: 6px;
+}
+
+#dashboard-email-div {
+  width: 100%;
+}
+
 #dashboard-container,
 #guide-container {
   display: flex;
@@ -124,14 +139,25 @@
 }
 
 #moreCredits,
+#websiteURL,
 #moreFreeCredits {
+  text-decoration: none;
   font-size: 12px;
   margin: 6px 0px 2px 0px;
   font-weight: 600;
   color: #0077b5;
 }
 
-#emailDiv {
+#websiteURL {
+  text-decoration: none;
+  font-size: 12px;
+  margin: 2px 0px 2px 0px;
+  font-weight: 600;
+  color: #0077b5;
+}
+
+#emailDiv,
+#connectionTokenDiv {
   background-color: #ffffff;
   border: 0.3px solid lightgrey;
   display: flex;
@@ -147,43 +173,85 @@
 
 #temp-user-name {
   margin-top: 10px;
+  width: 100%;
+  padding: 4px 12px 0px 12px;
+  text-align: center;
 }
 
 #getStarted {
   font-size: 12px;
   text-align: center;
   font-weight: 600;
-  padding: 6px 10px;
+  padding: 4px 10px 6px 10px;
 }
 
-#verify-email-div {
+#verify-email-div,
+#add-connection-token-div {
   display: flex;
   gap: 4px;
+  padding: 0px 4px 0px 4px;
   justify-content: center;
   align-items: center;
   margin-bottom: 5px;
 }
 
-#addemailButton {
+#addemailButton,
+#addConnectionTokenButton {
   background-color: #0077b5;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 6px 10px;
 }
 
-#email {
+#email,
+#connection-token {
   width: 70%;
   padding: 6px 8px;
   background-color: white;
   font-size: 12px;
   border-radius: 6px;
-  border: 1px solid lightgrey;
+  border: none;
+}
+
+#reloadDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 6px;
+  margin-bottom: 4px;
+  background-color: #f4f2ee;
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+
+#noToken {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 95%;
+  margin-top: 6px;
+  margin-bottom: 4px;
+  background-color: #f4f2ee;
+  border-radius: 6px;
+  padding: 6px 8px;
+  flex-direction: column;
+  text-align: center;
+}
+
+#reloadText,
+#websiteLogin {
+  font-size: 12px;
+  font-weight: 600;
 }
 
 #refresh {
-  height: 20px;
-  width: 20px;
+  height: 16px;
+  width: 16px;
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
 }
